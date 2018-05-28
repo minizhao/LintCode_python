@@ -3,7 +3,7 @@ lintcode 刷题记录<br>
 代码主要用Pyhton3.6实现<br>
 
 
-## Bit Manipulation
+## 刷题记录
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |1|[A + B Problem](http://lintcode.com/en/problem/a-b-problem/)| [C++](./C++/a-b-problem.cpp)| _O(1)_ | _O(1)_ | Medium | | |
