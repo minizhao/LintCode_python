@@ -6,5 +6,5 @@ lintcode 刷题记录<br>
 ## 刷题记录
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|1|[Binary Representation](https://www.lintcode.com/problem/binary-representation/description)| [python3](./Python/Binary_Representation.py)| _O(1)_ | _O(1)_ | 困难 | | |
+|1|[Binary Representation](https://www.lintcode.com/problem/binary-representation/description)| [python3](./Python/Binary_Representation.py)| _O(1)_ | _O(1)_ | 困难 | 字符串处理 ,比特位操作| |
 
