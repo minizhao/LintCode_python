@@ -11,7 +11,6 @@ class Solution:
         my_heapq=[matrix[0][0]]
         x_y_sum=0
         count=0
-
         x_max=(len(matrix)-1)
         y_max=(len(matrix[0])-1)
         x_y_sum_max=x_max+y_max

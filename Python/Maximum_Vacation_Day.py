@@ -16,8 +16,6 @@ class Node(object):
         self.value = value
         self.childs = childs
 
-
-
 class Solution:
     """
     @param flights: the airline status from the city i to the city j
@@ -71,16 +69,11 @@ class Solution:
         tree=self.make_tree(flights,days)
         print(self.dfs(tree,0))
 
-
-
-
 if __name__ == '__main__':
     sol=Solution()
     sol.maxVacationDays()
 
 """
-
-
 
 # 以下是动态规划解法
 import copy
@@ -105,6 +98,7 @@ class Solution(object):
                 if c_value<0:
                     continue
                 for c_next in range(city_nums):
+                    # 待在原地或者往下走一步
                     if c_next==c or flights[c][c_next]==1:
                         next_dp[c_next]=max(next_dp[c_next],c_value+days[c_next][w])
 

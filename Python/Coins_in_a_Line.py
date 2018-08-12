@@ -12,16 +12,12 @@ class Solution:
     """
     def firstWillWin(self, n):
         # write your code here
-
         if n<=0:
             return False
-
-
         op=[0]
         op.append(True)
         op.append(True)
         for i in range(3,n+1):
-
             rs=(not op[i-1]) or (not op[i-2])
             op.append(rs)
         return op[n]

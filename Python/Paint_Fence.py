@@ -9,14 +9,10 @@ class Solution:
     """
     def numWays(self, n, k):
         # write your code here
-
         dp=[0,k]
         dp.append(k+k*(k-1))
-
         print(dp)
-
         for i in range(3,n+1):
-
             dp.append((k-1)*(dp[i-1]+dp[i-2]))
         print(dp)
         return dp[n]
